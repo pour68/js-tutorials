@@ -89,6 +89,10 @@
 
 <hr />
 
+## type conversion
+
+<hr />
+
 ## object props and methods
 
 <hr />
@@ -113,6 +117,16 @@
 
 ### getter and setter
 
+### inheritance
+
+<hr />
+
+## regexp
+
+<hr />
+
+## utils: Math - Random
+
 <hr />
 
 ## DOM
@@ -120,6 +134,13 @@
 ### get and set elements and attributes
 
 ### events
+
+<hr />
+
+## json
+
+    - serialize (obj. => json)
+    - deserialize (json => obj.)
 
 <hr />
 
