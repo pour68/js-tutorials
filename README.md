@@ -2,11 +2,9 @@
 
 ## Data types
 
-<br />
-
 ### ValueTypes
 
-    string - number - boolean - undefined - null - symbol - date
+    string - number - boolean - undefined - null - symbol - date.
 
 ### ReferenceTypes
 
