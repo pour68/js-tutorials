@@ -1,12 +1,16 @@
 # JavaScript tutorials
 
-## Data types
+## Comment
 
-### ValueTypes
+<hr />
+
+## data types
+
+### value type family
 
     string - number - boolean - undefined - null - symbol - date.
 
-### ReferenceTypes
+### reference type family
 
     object - array - function - class.
 
@@ -17,11 +21,46 @@
 
 <hr />
 
+## variables
+
+    - var, let and const keywords
+
+<hr />
+
 ## string props and methods
 
 <hr />
 
 ## number props and methods
+
+<hr />
+
+## make decision statements
+
+    - if else
+    - switch case
+
+<hr />
+
+## loops
+
+    - do while
+    - while
+    - for
+    - foreach
+
+    utils: break and continue keywords
+
+<hr />
+
+## operators
+
+    - arithmetic
+    - assignment
+    - comparison
+    - logical
+    - bitwise
+    - type checking
 
 <hr />
 
