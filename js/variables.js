@@ -24,7 +24,7 @@ let isActive = true;
 // undefined
 let cousin = undefined;
 
-// none
+// null
 let myBook = null;
 
 // symbol

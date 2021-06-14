@@ -40,6 +40,16 @@
 
 <hr />
 
+## js output window
+
+    - console.log()
+    - alert()
+    - prompt()
+    - confirm()
+    - document.wite()
+
+<hr />
+
 ## string props and methods
 
 <hr />
