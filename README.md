@@ -46,7 +46,7 @@
     - alert()
     - prompt()
     - confirm()
-    - document.wite()
+    - document.write()
 
 <hr />
 
