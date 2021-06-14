@@ -10,6 +10,22 @@
 
 <hr />
 
+## tools
+
+    - advance text editor
+    - web developer tool
+    - browser console
+
+<hr />
+
+## implementation
+
+    - inline
+    - internal
+    - external
+
+<hr />
+
 ## comment
 
     - single line
@@ -19,11 +35,12 @@
 
 ## data types
 
-### value type family
+### value type family (primitive)
 
-    string - number - boolean - undefined - null - symbol - date.
+    string - number - boolean - undefined - null - date - symbol.
+    others: BigInt - Set - WeakSet - Map - WeakMap
 
-### reference type family
+### reference type family (complex)
 
     object - array - function - class.
 
@@ -37,6 +54,7 @@
 ## variables
 
     - var, let and const keywords
+    - naming convention
 
 <hr />
 
@@ -44,9 +62,14 @@
 
     - console.log()
     - alert()
+    - document.write()
+
+<hr />
+
+## js input window
+
     - prompt()
     - confirm()
-    - document.write()
 
 <hr />
 
@@ -71,6 +94,11 @@
     - while
     - for
     - foreach
+    - for of
+    - for in
+    - forEach
+    - map
+    - filter
 
     utils: break and continue keywords
 
@@ -144,6 +172,14 @@
 ### get and set elements and attributes
 
 ### events
+
+<hr />
+
+## local storage
+
+<hr />
+
+## cookie
 
 <hr />
 
