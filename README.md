@@ -140,6 +140,7 @@
 <hr />
 
 ## function props and methods
+	- rest operators
 
 <hr />
 
