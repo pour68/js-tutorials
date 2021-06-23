@@ -75,15 +75,24 @@
 
 ## string props and methods
 
+    length - toUpperCase() - toLowerCase() - indexOf("char | word") - lastIndexOf("char | word") - search("char | word") - startsWith("char | word") - includes("char | word") - endsWith("char | word") - replace(/char | word/gi, "char | word") - slice(start, end) - subString(start, end) - subStr(start, length) - split("char") - valueOf()
+
 <hr />
 
 ## number props and methods
 
 <hr />
 
+## Type conversion
+
+    Number() - parseInt() - parseFloat() - toString() - Boolean()
+
+<hr />
+
 ## make decision statements
 
     - if else
+    - ternary
     - switch case
 
 <hr />
@@ -117,9 +126,13 @@
 
 ## boolean props and methods
 
+    toString() - valueOf()
+
 <hr />
 
 ## symbol props and methods
+
+    for("description") - keyFor("symbol")
 
 <hr />
 
@@ -140,7 +153,8 @@
 <hr />
 
 ## function props and methods
-	- rest operators
+
+    - rest operators
 
 <hr />
 
