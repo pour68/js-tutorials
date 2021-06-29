@@ -7,12 +7,12 @@ let statementLowerCase = statement.toLowerCase();
 // search
 statement.indexOf("v");
 statement.lastIndexOf("a");
-statement.search("a");
+statement.search(/a/gi); // regex supported
 
 // checkup
-statement.startsWith("JavaScript");
-statement.includes("interpreting");
-statement.endsWith(".");
+statement.startsWith("JavaScript"); // true
+statement.includes("interpreting"); // true
+statement.endsWith("."); // true
 
 // replace
 statement.replace(/javaScript/gi, "Python");

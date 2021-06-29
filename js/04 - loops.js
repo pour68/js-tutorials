@@ -25,6 +25,6 @@
 
 /* foreach */
 
-// let fruits = ["banana", "kiwi", "mongo", "grapes"];
+let fruits = ["banana", "kiwi", "mongo", "grapes"];
 
-// fruits.forEach((fruit) => console.log(fruit));
+fruits.forEach((fruit) => console.log(fruit));

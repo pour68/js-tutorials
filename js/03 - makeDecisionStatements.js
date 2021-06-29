@@ -7,6 +7,8 @@ let screenOrientation;
 
 if (width > height) {
   screenOrientation = "horizontal";
+} else if (width == height) {
+  screenOrientation = "square";
 } else {
   screenOrientation = "vertical";
 }
@@ -24,6 +26,8 @@ if (balance > 2500 && !isCriminal) {
 } else {
   isEligibleForLoan = false;
 }
+
+// let isEligibleForLoan = balance > 2500 && !isCriminal;
 
 /* switch case */
 let total = 256_000;
@@ -45,4 +49,4 @@ switch (userStatus) {
     break;
 }
 
-total -= total * (offPercentage / 100);
+total -= total * (offPercentage / 100); // total = total - total * (offPercentage / 100);
