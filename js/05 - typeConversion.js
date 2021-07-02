@@ -16,5 +16,6 @@ bookPrice.toString(); // "10.500"
 
 // ----------------------------------------------------------------
 
-let isTruthyValue = Boolean("Pouria Nayeb");
-let isNumber = Boolean("123 Shariati St.");
+let isTruthyValue = Boolean("Pouria Nayeb"); // true
+let isNumber = Boolean(null); // false
+let isNumber = Boolean(undefined); // false

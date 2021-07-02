@@ -1,5 +1,10 @@
 let statement = "JavaScript is an interpreting programming language.";
 
+/* props */
+let statementCharactersCount = statement.length;
+
+/* methods */
+
 // transform
 let statementUpperCase = statement.toUpperCase();
 let statementLowerCase = statement.toLowerCase();
