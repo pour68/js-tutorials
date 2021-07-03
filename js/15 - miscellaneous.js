@@ -33,3 +33,18 @@ let statement = "W3schools is awesome language.";
 const pattern = /w3schools/gi;
 // const pattern = new RegExp("w3schools", "gi");
 pattern.test(statement);
+
+// RegEx: sequence of characters that forms a search pattern
+// let usernames = "pour68 maryam67 hamed67 MHD-1112";
+
+// let numbers = usernames.match(/\d+/g); // [67, 67, 67, 1112]
+// let regExp = new RegExp("\\d+","g");
+
+// /\bexpression\b/g
+// /\b\d{5}\b/g
+// /\b[0,9]{5}\b/g
+// /\b[a-zA-Z]{5}\b/g
+
+// exec(): if find return first match otherwise null.
+// test(): if find true otherwise false.
+// toString(): return string.
