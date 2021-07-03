@@ -1,6 +1,11 @@
 // exercise 01: (replace JavaScript and interpreting words at the same time)
 let phrase = "JavaScript is an interpreting programming language.";
 
+// method 2 (beginner friendly)
+
+phrase.replace("JavaScript","C#").replace("interpreting","compiling")
+
+// method 1 (advance shape)
 const mapObj = {
   JavaScript: "C#",
   interpreting: "compiling",
@@ -13,8 +18,9 @@ phrase = phrase.replace(
 
 // exercise 02: extract username and domain name from email address.
 const email = "pouria-nayeb@outlook.com";
-let collection = email.split("@");
+let collection = email.split("@"); // ["pouria-nayeb", "outlook.com"]
 
 let username = collection[0];
 
 let domain = collection[1].split(".")[0];
+let topLevelDomain = collection[1].split(".")[1];

@@ -1,5 +1,6 @@
 // exercise 01 (access based-on role)
 let role = "admin";
+
 switch (role) {
   case "admin":
     console.log("full access");
