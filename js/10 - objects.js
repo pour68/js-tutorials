@@ -18,6 +18,7 @@ let movie = {
 
 movie.lang = "en";
 
+// by the help of assign method we can assign new properties to object
 Object.assign(movie, { isbn: "9780670866298" });
 
 // Adding or changing an object property
@@ -44,7 +45,7 @@ Object.defineProperties(movie, {
 // Pattern: Object.entries(object);
 Object.entries(movie);
 
-// Prevents any changes to an object
+// Prevents any changes to object's properties
 // Pattern: Object.freeze(object);
 Object.freeze(movie);
 
@@ -56,7 +57,7 @@ Object.isFrozen(movie);
 // Pattern: Object.isExtensible(object);
 Object.isExtensible(movie);
 
-// Prevents changes of object properties (not values)
+// Make configuration false in object descriptors
 // Pattern: Object.seal(object)
 Object.seal(movie);
 

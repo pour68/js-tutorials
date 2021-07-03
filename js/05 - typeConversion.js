@@ -9,6 +9,8 @@ Number(grade); // 15.75
 
 let distanceValue = +distance; // 105
 
+let isNotNumber = isNaN("125"); // false
+
 // ----------------------------------------------------------------
 
 let bookPrice = 10.5;

@@ -79,5 +79,8 @@ books.unshift({
 // remove book from start
 books.shift();
 
+// Pattern: splice(start, deleteCounts, replaceValues)
+books.splice();
+
 let highRatedBooks = books.filter((book) => book.rate > 4);
 let bookTitles = books.map((book) => book.title);
