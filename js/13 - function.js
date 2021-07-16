@@ -1,27 +1,43 @@
 // named function
 function isPrime(number) {
+  // if user enter wrong value other than number
+  if (typeof number !== "number") {
+    return false;
+  }
+
   if (number < 2) return false;
 
-  if (number === 2) return true;
+  // if number is float
+  let output = Math.round(number);
 
-  for (let i = 2; i < number; i++) {
-    if (number % i === 0) return false;
+  if (output === 2) return true;
+
+  for (let i = 2; i < output; i++) {
+    if (output % i === 0) return false;
   }
 
   return true;
 }
 
-// function isPrime(number) {
-//   if (number < 2) return false;
+function isPrime(number) {
+  if (number < 2) return false;
 
-//   let root = Math.ceil(Math.sqrt(number));
+  if (typeof number !== "number") {
+    return false;
+  }
 
-//   for (let i = 2; i <= root; i++) {
-//     if (number % i === 0) return false;
-//   }
+  let integer = Math.round(number);
 
-//   return true;
-// }
+  let root = Math.ceil(Math.sqrt(integer));
+
+  for (let i = 2; i <= root; i++) {
+    if (integer % i === 0) return false;
+  }
+
+  return true;
+}
+
+isPrime(11);
 
 // anonymous function
 
@@ -39,10 +55,13 @@ function Book(title, author, isbn, price) {
   this.author = author;
   this.isbn = isbn;
   this.price = price;
+
   this.details = function () {
     return this.title + " " + this.author;
   };
 }
+
+// let harryPotter1 = new Book();
 
 // factory function
 function Student(
@@ -66,6 +85,11 @@ function Student(
     average,
   };
 }
+
+// let amirHossein = Student("amirhossein", null, null, null, null, null, null, null);
+
+// console.log(amirHossein);
+
 
 // recursive function
 

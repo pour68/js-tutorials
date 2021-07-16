@@ -9,7 +9,7 @@ let month = currentDate.getMonth(); // [0, 11]
 let day = currentDate.getDate(); // [1, 31]
 let dayOfWeek = currentDate.getDay(); // [0, 6]
 let minute = currentDate.getMinutes(); // [0, 59]
-let second = currentDate.getSeconds(); // [0, 59]
+let second = currentDat4e.getSeconds(); // [0, 59]
 let milliseconds = currentDate.getMilliseconds(); // [0, 999]
 
 // ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
