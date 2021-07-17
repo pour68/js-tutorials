@@ -27,7 +27,29 @@ class Employee {
 }
 
 class PartTimeEmployee extends Employee {
-  constructor(workingHours) {
+  constructor(
+    firstName,
+    lastName,
+    employeeId,
+    payPerHour,
+    entranceDate,
+    coupon,
+    hasInsurance,
+    paymentDate,
+    position,
+    workingHours
+  ) {
+    super(
+      firstName,
+      lastName,
+      employeeId,
+      payPerHour,
+      entranceDate,
+      coupon,
+      hasInsurance,
+      paymentDate,
+      position
+    );
     this.workingHours = workingHours;
   }
 
@@ -37,7 +59,30 @@ class PartTimeEmployee extends Employee {
 }
 
 class FullTimeEmployee extends Employee {
-  constructor(baseSalary, overTime) {
+  constructor(
+    firstName,
+    lastName,
+    employeeId,
+    payPerHour,
+    entranceDate,
+    coupon,
+    hasInsurance,
+    paymentDate,
+    position,
+    baseSalary,
+    overTime
+  ) {
+    super(
+      firstName,
+      lastName,
+      employeeId,
+      payPerHour,
+      entranceDate,
+      coupon,
+      hasInsurance,
+      paymentDate,
+      position
+    );
     this.baseSalary = baseSalary;
     this.overTime = overTime;
   }

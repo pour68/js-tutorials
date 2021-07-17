@@ -18,11 +18,12 @@ let absoluteValue = Math.abs(-15); // 15
 let euler = Math.E;
 let piValue = Math.PI;
 let square1_2 = Math.SQRT1_2;
+let sqrt_8 = Math.sqrt(25);
 let round = Math.round(10.5);
 let power = Math.pow(10, 2);
 let truncate = Math.trunc(-12.4);
 let degreeInput = (90 * Math.PI) / 180.0;
-let sin_90 = Math.sin(degree);
+let sin_90 = Math.sin(degreeInput);
 let degreeOutput = Math.asin(1);
 
 // Random object
