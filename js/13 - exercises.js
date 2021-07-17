@@ -24,10 +24,10 @@ function pow(base, power) {
 }
 
 // add positive values less than target number
-function add(number) {
+const add = (number) => {
   if (number === 0) return 0;
 
-  return number + add(number - 1);
+  return number > 0 ? number + sum(number - 1) : number + sum(number + 1);
 }
 
 // add number between two values
