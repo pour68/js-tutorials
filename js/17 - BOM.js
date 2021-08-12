@@ -14,6 +14,6 @@
 
 const btn = document.querySelector("#btn");
 
-btn.addEventListener("click", () => {
-  window.location.assign("https://digikala.com");
-});
+// btn.addEventListener("click", () => {
+//   window.location.assign("https://digikala.com");
+// });
