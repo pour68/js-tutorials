@@ -1,0 +1,24 @@
+{
+  "name": "js-tutorials",
+  "version": "1.0.0",
+  "description": "- founder\r     - established date\r     - ecma standard date\r     - last heavy update\r     - others",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pour68/js-tutorials.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pour68/js-tutorials/issues"
+  },
+  "homepage": "https://github.com/pour68/js-tutorials#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4"
+  }
+}
